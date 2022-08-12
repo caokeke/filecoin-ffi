@@ -1652,8 +1652,7 @@ dependencies = [
 [[package]]
 name = "filecoin-proofs"
 version = "11.1.1"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "e956a3235e86b88bfb3ffedf700ab1ff17145ac8d3936cd57d8bdef664d6a5d0"
+
 dependencies = [
  "anyhow",
  "bellperson",
@@ -1681,6 +1680,7 @@ dependencies = [
  "rand_xorshift",
  "rayon",
  "serde",
+ "serde_derive",
  "serde_json",
  "sha2 0.9.9",
  "storage-proofs-core",
